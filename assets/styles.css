@@ -36,7 +36,8 @@ ul { padding: 0; list-style: none; }
 .container { max-width: var(--largura); margin: 0 auto; padding: 0 32px; }
 .rotulo { font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--laranja-claro); }
 .claro .rotulo { color: var(--laranja); }
-.icone { width: 48px; height: 48px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; background: var(--preto); color: var(--laranja-claro); }
+.icone { width: 48px; height: 48px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; background: var(--preto); color: var(--branco); }
+.escuro .icone, .grafite .icone { color: var(--laranja-claro); }
 .escuro .icone, .grafite .icone { background: var(--laranja-fundo); }
 .icone-laranja { background: var(--laranja); color: var(--preto); }
 
