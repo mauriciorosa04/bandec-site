@@ -40,6 +40,7 @@ ul { padding: 0; list-style: none; }
 .escuro .icone, .grafite .icone { color: var(--laranja-claro); }
 .escuro .icone, .grafite .icone { background: var(--laranja-fundo); }
 .icone-laranja { background: var(--laranja); color: var(--preto); }
+.icone svg { stroke-width: 2.2; }
 
 /* Botões */
 .botao { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; padding: 0 24px; border: 0; border-radius: var(--raio-botao); font-family: var(--fonte-texto); font-weight: 700; font-size: 16px; text-decoration: none; cursor: pointer; transition: background var(--transicao), color var(--transicao), border-color var(--transicao), transform var(--transicao); }
