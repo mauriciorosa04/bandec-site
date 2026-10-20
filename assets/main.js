@@ -33,7 +33,7 @@
       var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
       var assunto = 'Contato pelo site: ' + v('assunto');
       var corpo = ['Nome: ' + v('nome'), 'Empresa ou instituição: ' + (v('empresa') || 'não informada'), 'E-mail: ' + v('email'), 'Telefone: ' + (v('telefone') || 'não informado'), '', v('mensagem')].join('\n');
-      var destino = form.getAttribute('action').replace('mailto:', '');
+      var destino = form.getAttribute('data-destino');
       window.location.href = 'mailto:' + destino + '?subject=' + encodeURIComponent(assunto) + '&body=' + encodeURIComponent(corpo);
     });
   }
