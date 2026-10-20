@@ -19,7 +19,8 @@ e fica nítido em qualquer tela, porque tudo que não é foto é vetor ou fonte.
 - **Para quem**: os oito perfis atendidos, da pessoa física ao poder público.
 - **Diferenciais**, **Investimento e parceria** e **Contato**, com formulário
   que monta a mensagem e abre o programa de e-mail do visitante.
-- Páginas de Termos de Uso e Política de Privacidade.
+- Páginas de Termos de Uso e Política de Privacidade, escritas para o que o
+  site faz de verdade: não grava cookies nem dados, e o contato vai por e-mail.
 
 ## Identidade
 
