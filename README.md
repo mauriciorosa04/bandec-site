@@ -32,7 +32,7 @@ e fica nítido em qualquer tela, porque tudo que não é foto é vetor ou fonte.
 | Fundo claro | `#f4f2ef` |
 
 Tipografia: Sora nos títulos e Source Sans 3 no texto, via Google Fonts.
-Ícones em SVG inline, no traço do Lucide. Uma cor de destaque só, e as três
+Ícones em SVG inline, no traço do Lucide. A logo também é SVG inline, com a fonte da página. Uma cor de destaque só, e as três
 cores das bolinhas da logo nunca mudam, em fundo claro ou escuro.
 
 ## Estrutura
@@ -44,7 +44,7 @@ termos-de-uso.html
 assets/
   styles.css      tokens, componentes e três pontos de quebra (1100, 980, 720)
   main.js         menu do celular, entrada suave das seções, formulário por e-mail
-  img/            logo em preto e em branco, favicon e fotos
+  img/            favicon (SVG e PNG) e fotos; a logo é SVG inline nas páginas
 ```
 
 ## Rodar localmente
